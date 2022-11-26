@@ -1,0 +1,21 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+  --primary-color: #219ebc;
+  --secondary-color: #43cea2;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px; 
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));  
+}
+
+
